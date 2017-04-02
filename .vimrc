@@ -18,7 +18,6 @@ Plugin 'VundleVim/Vundle.vim'
 
 " Keep Plugin commands between vundle#begin/end.
 Plugin 'scrooloose/nerdtree'
-Plugin 'Valloric/YouCompleteMe'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -45,7 +44,7 @@ let g:ycm_autoclose_preview_window_after_completion=1
 """ Visibility options
 " Make invisible characters visible
 set list
-set listchars=tab:→\ ,trail:+,space:·
+set listchars=tab:→\ ,trail:+
 " Display line numbers
 set number
 " Use relative line numbers for better navigation
