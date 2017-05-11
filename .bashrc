@@ -42,8 +42,9 @@ alias sudo='sudo '
 # Enable history appending instead of overwriting.  #139609
 shopt -s histappend
 
-# Use vim as default editor
-export EDITOR=vim
+# default editor
+#export EDITOR=vim
+export EDITOR=nano
 export VISUAL="$EDITOR"
 
 # Don't write duplicates or lines starting with spaces in the history
